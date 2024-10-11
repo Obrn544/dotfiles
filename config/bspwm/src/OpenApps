@@ -61,11 +61,14 @@ case "$1" in
         Term --fetch
         ;;
         # Apps
+    --spotify)
+        spotify-launcher
+        ;;
     --filemanager)
         thunar
         ;;
     --browser)
-        firefox
+        brave-browser
         ;;
     --editor)
         geany
