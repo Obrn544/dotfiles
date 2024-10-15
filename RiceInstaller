@@ -147,7 +147,7 @@ sleep 10
 
 [ ! -d "$backup_folder" ] && mkdir -p "$backup_folder"
 
-for folder in bspwm alacritty picom rofi eww sxhkd dunst kitty polybar ncmpcpp ranger tmux zsh; do
+for folder in bspwm alacritty picom rofi eww sxhkd dunst kitty polybar ncmpcpp ranger neofetch tmux zsh; do
     if [ -d "$HOME/.config/$folder" ]; then
         if mv "$HOME/.config/$folder" "$backup_folder/${folder}_$date" 2>> RiceError.log; then
             printf "%s%s%s folder backed up successfully at %s%s/%s_%s%s\n" "${BLD}" "${CGR}" "$folder" "${CBL}" "$backup_folder" "$folder" "$date" "${CNC}"
@@ -186,16 +186,6 @@ if [ -f ~/.zshrc ]; then
     fi
 else
     printf "%s%sThe file .zshrc does not exist, %sno backup needed%s\n" "${BLD}" "${CGR}" "${CYE}" "${CNC}"
-fi
-
-if [ -f ~/neofetch/config.conf ]; then
-    if mv ~/neofetch/config.conf "$backup_folder"/neofetch/config.conf_"$date" 2>> RiceError.log; then
-        printf "%s%sneofetch/config.conf file backed up successfully at %s%s/neofetch/config.conf_%s%s\n" "${BLD}" "${CGR}" "${CBL}" "$backup_folder" "${date}" "${CNC}"
-    else
-        printf "%s%sFailed to backup neofetch/config.conf file. See %sRiceError.log%s\n" "${BLD}" "${CRE}" "${CBL}" "${CNC}"
-    fi
-else
-    printf "%s%sThe file neofetch/config.conf does not exist, %sno backup needed%s\n" "${BLD}" "${CGR}" "${CYE}" "${CNC}"
 fi
 
 ########## ---------- Copy the Rice! ---------- ##########
@@ -240,7 +230,6 @@ else
     sleep 1
 fi
 
-cp -f "$HOME"/dotfiles/config/config.conf "$HOME"/.config/neofetch
 cp -f "$HOME"/dotfiles/home/.zshrc "$HOME"
 fc-cache -rv >/dev/null 2>&1
 
