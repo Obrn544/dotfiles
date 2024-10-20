@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# ██╗  ██╗███████╗██╗   ██╗██████╗  ██████╗  █████╗ ██████╗ ██████╗     ██╗      █████╗ ██╗   ██╗ ██████╗ ██╗   ██╗████████╗              
+# ██║ ██╔╝██╔════╝╚██╗ ██╔╝██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██╔══██╗    ██║     ██╔══██╗╚██╗ ██╔╝██╔═══██╗██║   ██║╚══██╔══╝              
+# █████╔╝ █████╗   ╚████╔╝ ██████╔╝██║   ██║███████║██████╔╝██║  ██║    ██║     ███████║ ╚████╔╝ ██║   ██║██║   ██║   ██║                 
+# ██╔═██╗ ██╔══╝    ╚██╔╝  ██╔══██╗██║   ██║██╔══██║██╔══██╗██║  ██║    ██║     ██╔══██║  ╚██╔╝  ██║   ██║██║   ██║   ██║                 
+# ██║  ██╗███████╗   ██║   ██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝    ███████╗██║  ██║   ██║   ╚██████╔╝╚██████╔╝   ██║                 
+# ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝     ╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝    ╚═╝                 
+                                                                  
+#   Script to open with selected keyboard layout
+#   Author: Talentless
+#   url: https://github.com/obrn544/dotfiles
+
+CFG_LAYOUT="$HOME/.config/bspwm/src/.layout"
+DEFAULT_LAYOUT="us"
+ROFI_THEME="$HOME/.config/bspwm/src/rofi-themes/KeyboardLayoutSelector.rasi"
+
+# Creating config file if not exists.
+[ ! -f "$CFG_LAYOUT" ] && echo "$DEFAULT_LAYOUT" > "$CFG_LAYOUT"
+
+
+# Main var
+MY_LAYOUT=$(< "$CFG_LAYOUT")
+
+# Function to choose the keyboard layout using rofi
+choose_layout() {
+    local options=("English" "Spanish")
+    local current_layout=$(tr '[:upper:]' '[:lower:]' <<< "$MY_LAYOUT")
+
+    # Determinar el índice seleccionado
+    local selected_index=$(printf '%s\n' "${options[@],,}" | awk -v cur="$current_layout" '$0==cur {print NR-1; exit}')
+
+    # Mostrar el menú con rofi
+    local chosen
+    chosen=$(printf '%s\n' "${options[@]}" | rofi -theme "$ROFI_THEME" -mesg "[ Your current keyboard layout is $MY_LAYOUT ]" -dmenu -selected-row "$selected_index")
+
+    case $chosen in
+        "English")
+            setxkbmap -layout us
+            echo "English" > "$CFG_LAYOUT"
+            ;;
+        "Spanish")
+            setxkbmap -layout latam
+            echo "Spanish" > "$CFG_LAYOUT"
+            ;;
+    esac
+}
+
+# Llamar a la función para elegir el layout
+choose_layout

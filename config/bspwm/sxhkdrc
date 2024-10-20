@@ -46,9 +46,13 @@ shift + alt + p
 alt + @space
 	RiceSelector
 
-#Terminal Selector
+# Terminal Selector
 super + alt + t
 	Term --selecterm
+
+# Keyboard Layout Selector
+super + alt + l
+	KeyboardLayoutSelector
 
 # jgmenu
 ~button3
