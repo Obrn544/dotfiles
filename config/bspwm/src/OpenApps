@@ -62,7 +62,7 @@ case "$1" in
         ;;
         # Apps
     --spotify)
-        spotify-launcher
+        spotify
         ;;
     --filemanager)
         thunar
