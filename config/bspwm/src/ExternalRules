@@ -51,7 +51,7 @@ case "$class" in
 		result "state=floating sticky=on center=on rectangle=$dimensions"
         ;;
     RangerTerm)
-		dimensions=$(calculate_dimensions 51 34)
+		dimensions=$(calculate_dimensions 55 35)
 		result "state=floating center=on rectangle=$dimensions"
 		;;
 	MusicTerm)
@@ -59,7 +59,7 @@ case "$class" in
 		result "state=floating center=on rectangle=$dimensions"
 		;;
 	FetchTerm)
-		dimensions=$(calculate_dimensions 21 58)
+		dimensions=$(calculate_dimensions 24 68)
 		result "state=floating center=on rectangle=$dimensions"
 		;;
     mpv)
