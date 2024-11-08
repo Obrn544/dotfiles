@@ -18,7 +18,7 @@ read -r RICE < "$HOME"/.config/bspwm/.rice
 
 # Vars config for Emilia Rice
 # Bspwm border		# Fade true|false	# Shadows true|false	# Corner radius		# Shadow color
-BORDER_WIDTH="0"	P_FADE="true"		P_SHADOWS="true"		P_CORNER_R="6"		SHADOW_C="#000000"
+BORDER_WIDTH="3"	P_FADE="true"		P_SHADOWS="true"		P_CORNER_R="16"		SHADOW_C="#000000"
 
 # (Tokyo Night) colorscheme
 bg="#1a1b26"  fg="#c0caf5"
@@ -149,7 +149,7 @@ set_picom_config() {
 		-e "s/normal = .*/normal =  { fade = ${P_FADE}; shadow = ${P_SHADOWS}; }/g" \
 		-e "s/dock = .*/dock =  { fade = ${P_FADE}; }/g" \
 		-e "s/shadow-color = .*/shadow-color = \"${SHADOW_C}\"/g" \
-		-e "s/corner-radius = .*/corner-radius = ${P_CORNER_R}/g" \
+	  -e "s/corner-radius = .*/corner-radius = ${P_CORNER_R}/g" \
 		-e "s/\".*:class_g = 'Alacritty'\"/\"100:class_g = 'Alacritty'\"/g" \
 		-e "s/\".*:class_g = 'kitty'\"/\"100:class_g = 'kitty'\"/g" \
 		-e "s/\".*:class_g = 'FloaTerm'\"/\"100:class_g = 'FloaTerm'\"/g"
