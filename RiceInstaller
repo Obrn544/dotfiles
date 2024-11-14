@@ -223,22 +223,26 @@ sleep 5
 
 logo "Download zsh plugins"
 
+plugins_dir="$HOME/.config/zsh/plugins/"
+
+mkdir -p "$plugins_dir"
+
 repo_url="https://github.com/zsh-users/zsh-autosuggestions"
 
 printf "Cloning plugin from %s\n" "$repo_url"
-git clone "$repo_url"
+git clone "$repo_url" "$plugins_dir/zsh-autosuggestions"
 sleep 2
 
 repo_url="https://github.com/zsh-users/zsh-syntax-highlighting"
 
 printf "Cloning plugin from %s\n" "$repo_url"
-git clone "$repo_url"
+git clone "$repo_url" "$plugins_dir/zsh-syntax-highlighting"
 sleep 2
 
 repo_url="https://github.com/zsh-users/zsh-history-substring-search"
 
 printf "Cloning plugin from %s\n" "$repo_url"
-git clone "$repo_url"
+git clone "$repo_url" "$plugins_dir/zsh-history-substring-search"
 sleep 2
 
 clear
