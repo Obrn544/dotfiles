@@ -211,6 +211,7 @@ else
     sleep 1
 fi
 
+cp -f "$HOME"/dotfiles/config/starship.toml "$HOME"/.config
 cp -f "$HOME"/dotfiles/home/.zshrc "$HOME"
 fc-cache -rv >/dev/null 2>&1
 
