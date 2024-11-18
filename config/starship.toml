@@ -9,7 +9,7 @@ command_timeout = 5000
 add_newline = true
 
 [os]
-format = '[$symbol](bold blue) '   
+format = '[$symbol](bold red) '   
 disabled = false
 
 [os.symbols]
