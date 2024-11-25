@@ -40,7 +40,7 @@
         (label :text ""))
       (box :orientation "h" :space-evenly "true"
         (label :class "keys" :xalign 0 :text "Keybindings")
-        (label :class "keys-alt" :xalign 1 :text "F1"))
+        (label :class "keys-alt" :xalign 1 :text "alt + F1"))
       (box :orientation "h" :space-evenly "true"
         (label :class "keys" :xalign 0 :text "Restart BSPWM")
         (label :class "keys-alt" :xalign 1 :text "Super + Alt + r"))
