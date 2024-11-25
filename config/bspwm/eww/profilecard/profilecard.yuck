@@ -138,7 +138,7 @@
 					:spacing 8
 					(label :class "arch-icon"
 						   :halign "start"
-						   :text "󰣇")
+						   :text " ")
 					(box 
 						 :space-evenly "false"
 						 (box :orientation "v"
@@ -147,7 +147,7 @@
 							  :style "margin-left: 10px;"
 							  (label :class "os-icon" 
 									 :halign "start"
-									 :text "󰣇")
+									 :text " ")
 							  (label :class "pkgs-icon"
 									 :halign "start"
 									 :text "󰮯")

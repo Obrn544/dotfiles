@@ -6,7 +6,7 @@
 }
 
 .min {
-  font-family: "JetBrainsMono Nerd Font";
+  font-family: 'JetBrainsMono Nerd Font';
   font-size: 1.1rem;
   padding: 0 0.9rem;
   color: $red;
@@ -104,14 +104,14 @@
   .arch-icon {
     font-family: Material Design Icons Desktop;
     font-size: 3rem;
-    color: $archicon;
+    color: $red;
   }
 }
 
 .os-icon {
   font-family: Material Design Icons Desktop;
   font-size: 0.8rem;
-  color: $archicon;
+  color: $red;
 }
 
 .pkgs-icon {
@@ -146,17 +146,17 @@
   margin-left: 0.6rem;
   background-color: $bg-alt;
   font-size: 1.5rem;
-  font-family: "Font Awesome 6 Free Solid";
+  font-family: 'Font Awesome 6 Free Solid';
 }
 
 .weatherdesc {
   font-size: 1.75rem;
-  font-family: "Inconsolata SemiCondensed Medium";
+  font-family: 'Inconsolata SemiCondensed Medium';
   font-weight: Bold;
 }
 
 .weathertemp {
-  font-family: "Iosevka Nerd Font";
+  font-family: 'Iosevka Nerd Font';
   font-size: 1.5rem;
   font-weight: bold;
   color: $fg;
@@ -175,7 +175,7 @@
 }
 
 .tools-box {
-  font-family: "Material Design Icons Desktop";
+  font-family: 'Material Design Icons Desktop';
   font-size: 1.4rem;
   border-radius: 100%;
   background-color: $bg-alt;
@@ -252,15 +252,14 @@
   }
 
   .icon {
-    font-family: "Font Awesome 6 Free Solid";
+    font-family: 'Font Awesome 6 Free Solid';
     font-size: 1rem;
     padding: 1.1rem;
   }
 }
 
 .temp {
-  font-family: "Font Awesome 6 Free Solid";
+  font-family: 'Font Awesome 6 Free Solid';
   font-size: 1rem;
   color: $magenta;
 }
-
