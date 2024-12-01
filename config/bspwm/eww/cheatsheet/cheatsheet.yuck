@@ -216,8 +216,8 @@
         (label :class "keys" :xalign 0 :text "Ranger")
         (label :class "keys-alt" :xalign 1 :text "Shift + Alt + r"))
       (box :orientation "h" :space-evenly "true"
-        (label :class "keys" :xalign 0 :text "Ncmpcpp")
-        (label :class "keys-alt" :xalign 1 :text "Shift + Alt + k"))
+        (label :class "keys" :xalign 0 :text "Spotify")
+        (label :class "keys-alt" :xalign 1 :text "Shift + Alt + m"))
       (box :orientation "h" :space-evenly "true"
         (label :class "keys" :xalign 0 :text "Pavucontrol")
         (label :class "keys-alt" :xalign 1 :text "Shift + Alt + p"))

@@ -27,13 +27,13 @@ super + @space
 
 #####
 
-# Apps (browser, editor, filemanager)
+# Apps (browser, editor, filemanager, music)
 shift + alt + {b,g,n,m}
 	OpenApps {--browser,--editor,--filemanager,--spotify}
 
-# Terminal apps (ranger, nvim, ncmpcpp)
-shift + alt + {r,v,k}
-	OpenApps {--ranger,--nvim,--music}
+# Terminal apps (ranger, nvim)
+shift + alt + {r,v}
+	OpenApps {--ranger,--nvim,}
 
 # Pavucontrol
 shift + alt + p
