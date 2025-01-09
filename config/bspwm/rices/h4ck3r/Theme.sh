@@ -18,7 +18,7 @@ read -r RICE < "$HOME"/.config/bspwm/.rice
 
 # Vars config for h4ck3r Rice
 # Bspwm border		# Fade true|false	# Shadows true|false	# Corner radius		# Shadow color
-BORDER_WIDTH="3"	P_FADE="false"		P_SHADOWS="false"		P_CORNER_R="16"		SHADOW_C="#000000"
+BORDER_WIDTH="3"	P_FADE="true"		P_SHADOWS="true"		P_CORNER_R="16"		SHADOW_C="#000000"
 
 # (Hack The box) colorscheme
 bg="#0c1018"  fg="#1947e0"

@@ -18,7 +18,7 @@ read -r RICE < "$HOME"/.config/bspwm/.rice
 
 # Vars config for Jan Rice
 # Bspwm border		# Fade true|false	# Shadows true|false	# Corner radius		# Shadow color
-BORDER_WIDTH="3"	P_FADE="true"		P_SHADOWS="false"		P_CORNER_R="16"		SHADOW_C="#000000"
+BORDER_WIDTH="3"	P_FADE="true"		P_SHADOWS="true"		P_CORNER_R="16"		SHADOW_C="#000000"
 
 # (CyberPunk) colorscheme
 bg="#070219"  fg="#27fbfe"
