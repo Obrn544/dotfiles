@@ -71,7 +71,7 @@ case "$1" in
         brave-browser
         ;;
     --editor)
-        geany
+        code
         ;;
     --telegram)
         telegram-desktop

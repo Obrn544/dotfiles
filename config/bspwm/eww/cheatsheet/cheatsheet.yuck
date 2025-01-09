@@ -174,9 +174,6 @@
         (label :class "category-workspaces" :xalign 0.5 :text "System Apps")
         (label :text ""))
       (box :orientation "h" :space-evenly "true"
-        (label :class "keys" :xalign 0 :text "Scratchpad")
-        (label :class "keys-alt" :xalign 1 :text "Super + Alt + o"))
-      (box :orientation "h" :space-evenly "true"
         (label :class "keys" :xalign 0 :text "Hide/Unhide Polybar")
         (label :class "keys-alt" :xalign 1 :text "Super + Alt + {h,u}"))
       (box :orientation "h" :space-evenly "true"
@@ -192,9 +189,6 @@
         (label :class "keys" :xalign 0 :text "Bluetooth")
         (label :class "keys-alt" :xalign 1 :text "Super + Alt + b"))
       (box :orientation "h" :space-evenly "true"
-        (label :class "keys" :xalign 0 :text "Clipboard")
-        (label :class "keys-alt" :xalign 1 :text "Super + Alt + c"))
-      (box :orientation "h" :space-evenly "true"
         (label :class "keys" :xalign 0 :text "Android Mount")
         (label :class "keys-alt" :xalign 1 :text "Super + Alt + a"))
       (box :orientation "h" :space-evenly "true"
@@ -207,11 +201,8 @@
         (label :class "keys" :xalign 0 :text "Browser")
         (label :class "keys-alt" :xalign 1 :text "Shift + Alt + b"))
       (box :orientation "h" :space-evenly "true"
-        (label :class "keys" :xalign 0 :text "File Manager")
-        (label :class "keys-alt" :xalign 1 :text "Shift + Alt + n"))
-      (box :orientation "h" :space-evenly "true"
         (label :class "keys" :xalign 0 :text "Editor")
-        (label :class "keys-alt" :xalign 1 :text "Shift + Alt + g"))
+        (label :class "keys-alt" :xalign 1 :text "Shift + Alt + e"))
       (box :orientation "h" :space-evenly "true"
         (label :class "keys" :xalign 0 :text "Ranger")
         (label :class "keys-alt" :xalign 1 :text "Shift + Alt + r"))

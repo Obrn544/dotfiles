@@ -28,7 +28,7 @@ super + @space
 #####
 
 # Apps (browser, editor, filemanager, music)
-shift + alt + {b,g,n,m}
+shift + alt + {b,e,n,m}
 	OpenApps {--browser,--editor,--filemanager,--spotify}
 
 # Terminal apps (ranger, nvim)
