@@ -18,7 +18,7 @@ read -r RICE < "$HOME"/.config/bspwm/.rice
 
 # Vars config for Marisol Rice
 # Bspwm border		# Fade true|false	# Shadows true|false	# Corner radius		# Shadow color
-BORDER_WIDTH="2"	P_FADE="true"		P_SHADOWS="false"		P_CORNER_R="0"		SHADOW_C="#000000"
+BORDER_WIDTH="3"	P_FADE="true"		P_SHADOWS="false"		P_CORNER_R="16"		SHADOW_C="#000000"
 
 # (Dracula) colorscheme
 bg="#282a36"  fg="#f8f8f2"
@@ -28,10 +28,6 @@ blackb="#6272a4"  redb="#ff6e6e"  greenb="#69ff94"  yellowb="#ffffa5"
 
 blue="#bd93f9"   magenta="#ff79c6"   cyan="#8be9fd"   white="#f8f8f2"
 blueb="#d6acff"  magentab="#ff92df"  cyanb="#a4ffff"  whiteb="#ffffff"
-
-# Gtk theme vars
-gtk_theme="Dracula-zk"	gtk_icons="Dracula"	gtk_cursor="Qogirr-Dark"	geany_theme="z0mbi3-Dracula"
-
 
 # Set bspwm configuration
 set_bspwm_config() {
@@ -233,38 +229,6 @@ set_launchers() {
 EOF
 }
 
-set_appearance() {
-	# Set the gtk theme corresponding to rice
-	if pidof -q xsettingsd; then
-		sed -i "$HOME"/.config/bspwm/xsettingsd \
-			-e "s|Net/ThemeName .*|Net/ThemeName \"$gtk_theme\"|" \
-			-e "s|Net/IconThemeName .*|Net/IconThemeName \"$gtk_icons\"|" \
-			-e "s|Gtk/CursorThemeName .*|Gtk/CursorThemeName \"$gtk_cursor\"|"
-	else
-		sed -i "$HOME"/.config/gtk-3.0/settings.ini \
-			-e "s/gtk-theme-name=.*/gtk-theme-name=$gtk_theme/" \
-			-e "s/gtk-icon-theme-name=.*/gtk-icon-theme-name=$gtk_icons/" \
-			-e "s/gtk-cursor-theme-name=.*/gtk-cursor-theme-name=$gtk_cursor/"
-
-		sed -i "$HOME"/.gtkrc-2.0 \
-			-e "s/gtk-theme-name=.*/gtk-theme-name=\"$gtk_theme\"/" \
-			-e "s/gtk-icon-theme-name=.*/gtk-icon-theme-name=\"$gtk_icons\"/" \
-			-e "s/gtk-cursor-theme-name=.*/gtk-cursor-theme-name=\"$gtk_cursor\"/"
-	fi
-
-	sed -i -e "s/Inherits=.*/Inherits=$gtk_cursor/" "$HOME"/.icons/default/index.theme
-
-	# Reload daemon and apply gtk theme
-	pidof -q xsettingsd && killall -HUP xsettingsd
-	xsetroot -cursor_name left_ptr
-}
-
-# Apply Geany Theme
-set_geany(){
-	sed -i ${HOME}/.config/geany/geany.conf \
-	-e "s/color_scheme=.*/color_scheme=$geany_theme.conf/g"
-}
-
 # Launch theme
 launch_theme() {
 
@@ -289,6 +253,4 @@ set_picom_config
 set_dunst_config
 set_eww_colors
 set_launchers
-set_appearance
-set_geany
 launch_theme
