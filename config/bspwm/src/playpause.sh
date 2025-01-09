@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if pgrep -x "spotify" > /dev/null && playerctl status -p spotify | grep -qi "playing"; then
-    # Spotify está ejecutándose y en reproducción
-    echo "  " # Icono de pausa
+if playerctl -p spotify status 2>/dev/null | grep -qi "Playing"; then
+    echo "  "
+elif playerctl -p spotify status 2>/dev/null | grep -qi "Paused"; then
+    echo "  "
 else
-    # Spotify no está ejecutándose o está en pausa
-    echo "  "   # Icono de play
+    echo "  "
 fi

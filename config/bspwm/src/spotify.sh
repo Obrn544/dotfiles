@@ -1,10 +1,7 @@
 #!/bin/bash
 
-if pgrep -x "spotify" > /dev/null
-then
-    # Spotify está ejecutándose
-    spotifyctl -q status --format '%artist%: %title%'
+if playerctl --player=spotify status > /dev/null 2>&1; then
+    playerctl --player=spotify metadata --format '{{ title }}'
 else
-    # Spotify no está ejecutándose
-    echo "No Music"
+    echo " No Music "
 fi
