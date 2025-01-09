@@ -29,10 +29,6 @@ blackb="#626483"  redb="#fb007a"  greenb="#a6e22e"  yellowb="#f3e430"
 blue="#19bffe"   magenta="#6800d2"   cyan="#43fbff"   white="#d9d9d9"
 blueb="#58AFC2"  magentab="#472575"  cyanb="#926BCA"  whiteb="#f1f1f1"
 
-# Gtk theme vars
-gtk_theme="CyberPunk-zk"	gtk_icons="BeautyLine"	gtk_cursor="Qogirr-Dark"	geany_theme="z0mbi3-CyberPunk"
-
-
 # Set bspwm configuration
 set_bspwm_config() {
 	bspc config border_width ${BORDER_WIDTH}
