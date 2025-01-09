@@ -26,15 +26,15 @@ $archlogo: #0f94d2;
 
 // Launcher
 .launcher_icon {
-  color: $archlogo;
-  font-family: "Material Design Icons Desktop";
+  color: $red;
+  font-family: 'Material Design Icons Desktop';
   font-size: 1.7em;
   padding: 1rem 0 1rem 0;
 }
 
 // Workspaces
 .works {
-  font-family: "Material Design Icons Desktop";
+  font-family: 'Material Design Icons Desktop';
   padding: 0.5rem 0.7rem 0.5rem 0.7rem;
   background-color: $black;
   border-radius: 5px;
@@ -60,32 +60,32 @@ $archlogo: #0f94d2;
 
 // System Tray
 .tray menu {
-	padding: 5px 5px;
-	background-color: $background;
+  padding: 5px 5px;
+  background-color: $background;
 
-	>menuitem {
+  > menuitem {
     font-family: JetBrainsMono NF;
     font-size: 14px;
-		padding: 2px 5px;
+    padding: 2px 5px;
     color: $foreground;
 
-		&:disabled label {
-			color: $black;
-		}
+    &:disabled label {
+      color: $black;
+    }
 
-		&:hover {
-			background-color: $gray;
-		}
-	}
+    &:hover {
+      background-color: $gray;
+    }
+  }
 
-	separator {
-		background-color: $foreground;
-		padding-top: 1px;
+  separator {
+    background-color: $foreground;
+    padding-top: 1px;
 
-		&:last-child {
-			padding: unset;
-		}
-	}
+    &:last-child {
+      padding: unset;
+    }
+  }
 }
 
 // icons info
@@ -104,7 +104,7 @@ $archlogo: #0f94d2;
 }
 
 .bar-updates-text {
-  font-family: "JetBrainsMono NF";
+  font-family: 'JetBrainsMono NF';
   font-size: 14px;
   font-weight: Bold;
   color: #8ea6c4;
