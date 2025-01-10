@@ -77,8 +77,8 @@ EOF
 printf "\e[0m\n    %s\e[0m\n\n" "$COLORBAR"
 
 # greetings
-printf "%s\n" "             Hi $CRE$CBD$name$CNC"
-printf "%s\n" "       Welcome to $CGR$CBD$host$CNC"
+printf "%s\n" "                Hi $CRE$CBD$name$CNC"
+printf "%s\n" "            Welcome to $CGR$CBD$host$CNC"
 printf "%s\n\n" "           up $CCY$CBD$uptm$CNC"
 
 # environment
