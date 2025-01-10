@@ -215,8 +215,6 @@ cp -f "$HOME"/dotfiles/config/starship.toml "$HOME"/.config
 cp -f "$HOME"/dotfiles/home/.zshrc "$HOME"
 fc-cache -rv >/dev/null 2>&1
 
-sudo chmod 666 /sys/class/backlight/intel_backlight/brightness
-
 printf "\n\n%s%sFiles copied succesfully!!%s\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 5
 
