@@ -5,6 +5,7 @@
 #  ██║  ██║███████╗██║  ██║╚██████╗██║  ██║██║   ██║      ██║      ██║   
 #  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝   
 #	gh0stzk - https://github.com/gh0stzk/dotfiles
+# obrn544 - https://github.com/Obrn544/dotfiles
 
 import = ["~/.config/alacritty/rice-colors.toml", "~/.config/alacritty/fonts.toml"]
 
