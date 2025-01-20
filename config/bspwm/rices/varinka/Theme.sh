@@ -7,6 +7,7 @@
 #    ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝
 #  Author  :  z0mbi3
 #  Url     :  https://github.com/gh0stzk/dotfiles
+#  Editor  :  https://github.com/Obrn544
 #  About   :  This file will configure and launch the rice.
 #
 
