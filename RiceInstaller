@@ -8,6 +8,8 @@
 #   Script to install my dotfiles
 #   Author: z0mbi3
 #   url: https://github.com/gh0stzk
+#   Editor: obrn544
+#   url: https://github.com/Obrn544
 
 CRE=$(tput setaf 1)
 CYE=$(tput setaf 3)
