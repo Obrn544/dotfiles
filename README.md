@@ -60,3 +60,32 @@ chmod +x RiceInstaller
 And more.. You need to look sxhkdrc file for more, or press Alt + F1 for a cheatsheet.
 
 ---
+
+## ⚠️ Possible errors
+
+> [!WARNING]
+> If you can't change the brightness intensity, please follow the steps below
+
+- **Create a udev rule file**
+
+```sh
+sudo nano /etc/udev/rules.d/90-backlight.rules
+```
+
+- **Add the following line**
+
+```sh
+ACTION=="add", SUBSYSTEM=="backlight", RUN+="/bin/chmod 666 /sys/class/backlight/intel_backlight/brightness"
+```
+
+- **Restart the udev service**
+
+```sh
+sudo udevadm control --reload-rules
+```
+
+```sh
+sudo udevadm trigger
+```
+
+- **Restart your computer to verify that it is working properly.**
