@@ -6,9 +6,9 @@
 # ██║  ██╗███████╗   ██║   ██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝    ███████╗██║  ██║   ██║   ╚██████╔╝╚██████╔╝   ██║                 
 # ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝     ╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝    ╚═╝                 
                                                                   
-#   Script to open with selected keyboard layout
-#   Author: Talentless
+#   Author: obrn544
 #   url: https://github.com/obrn544/dotfiles
+#   Script to open with selected keyboard layout
 
 CFG_LAYOUT="$HOME/.config/bspwm/src/.layout"
 DEFAULT_LAYOUT="us"
