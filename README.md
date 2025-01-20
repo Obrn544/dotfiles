@@ -2,7 +2,8 @@
 
 ## 💾 Installation:
 
-The installer only works for **Ubuntu 24** or latest versions.
+> [!IMPORTANT]
+> The installer only works for **Ubuntu 24** or latest versions.
 
 <b>Open a terminal in HOME</b>
 
