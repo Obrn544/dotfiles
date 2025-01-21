@@ -43,6 +43,13 @@ chmod +x RiceInstaller
 ./RiceInstaller
 ```
 
+> [!NOTE]
+> You can delete the dotfiles folder
+
+```sh
+rm -rf dotfiles
+```
+
 ## ⌨️ Very useful keybindings to know...
 
 | Keys                                                                                                                                                                                                     | Action                                                                |
