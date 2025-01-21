@@ -57,9 +57,10 @@
 sudo apt install curl
 ```
 
-```sh
-curl -sS https://starship.rs/install.sh | sh
-```
+- **Download and install JetBrains Mono Nerd Font**
+
+Visit the [Nerd Fonts](https://www.nerdfonts.com/font-downloads) page and download the JetBrainsMono Nerd Font.
+After downloading, install only fonts that have NF, for example: JetBrainsMono NF, Italic.
 
 - **Clone the repository**
 
