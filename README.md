@@ -1,8 +1,8 @@
 # [Gh0stzk dotfiles](https://github.com/gh0stzk/dotfiles) for ubuntu
 
 <div align="center">
-&ensp;[<kbd> <br> Install <br> </kbd>](#installation)&ensp;
-&ensp;[<kbd> <br> Rices <br> </kbd>](#rices)&ensp;
+&ensp;[<kbd> <br> Rices <br> </kbd>](#-rices)&ensp;
+&ensp;[<kbd> <br> Install <br> </kbd>](#-installation)&ensp;
 &ensp;[<kbd> <br> Keybindings <br> </kbd>](#very-useful-keybindings)&ensp;
 <br><br><br></div>
 
@@ -92,7 +92,7 @@ chmod +x RiceInstaller
 rm -rf dotfiles
 ```
 
-## ⌨️ Very useful keybindings to know...
+## ⌨️ Very Useful Keybindings
 
 | Keys                                                                                                                                                                                                     | Action                                                                |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
