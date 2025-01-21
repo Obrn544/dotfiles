@@ -6,7 +6,7 @@
 &ensp;[<kbd> <br> Install <br> </kbd>](#installation)&ensp;
 &ensp;[<kbd> <br> Keybindings <br> </kbd>](#very-useful-keybindings)&ensp;
 &ensp;[<kbd> <br> Possible errors <br> </kbd>](#possible-errors)&ensp;
-<br><br><br></div>
+<br></div>
 
 ## Rices
 
