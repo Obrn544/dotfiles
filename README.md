@@ -1,6 +1,7 @@
 # [Gh0stzk dotfiles](https://github.com/gh0stzk/dotfiles) for ubuntu
 
 <div align="center">
+
 &ensp;[<kbd> <br> Rices <br> </kbd>](#-rices)&ensp;
 &ensp;[<kbd> <br> Install <br> </kbd>](#-installation)&ensp;
 &ensp;[<kbd> <br> Keybindings <br> </kbd>](#very-useful-keybindings)&ensp;
