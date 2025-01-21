@@ -1,5 +1,41 @@
 # [Gh0stzk dotfiles](https://github.com/gh0stzk/dotfiles) for ubuntu
 
+## 🎨 Rices
+
+|                                                                    Aline                                                                    |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://res.cloudinary.com/diu2godjy/image/upload/v1737427312/Shot-2025-01-20-214136_uekm3d.png" alt="Aline Rice" align="center"> |
+
+|                                                                    Andrea                                                                    |
+| :------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://res.cloudinary.com/diu2godjy/image/upload/v1737427477/Shot-2025-01-20-214417_oxf5bf.png" alt="Andrea Rice" align="center"> |
+
+|                                                                    Cristina                                                                    |
+| :--------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://res.cloudinary.com/diu2godjy/image/upload/v1737427643/Shot-2025-01-20-214703_wxelja.png" alt="Cristina Rice" align="center"> |
+
+|                                                                    Daniela                                                                    |
+| :-------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://res.cloudinary.com/diu2godjy/image/upload/v1737427795/Shot-2025-01-20-214941_zn7bsa.png" alt="Daniela Rice" align="center"> |
+
+|                                                                    Emilia                                                                    |
+| :------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://res.cloudinary.com/diu2godjy/image/upload/v1737430124/Shot-2025-01-20-222828_ttdghe.png" alt="Emilia Rice" align="center"> |
+
+|                                                                    Karla                                                                    |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://res.cloudinary.com/diu2godjy/image/upload/v1737430171/Shot-2025-01-20-222916_k7r0mi.png" alt="Karla Rice" align="center"> |
+
+|                                                                    Pamela                                                                    |
+| :------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://res.cloudinary.com/diu2godjy/image/upload/v1737430253/Shot-2025-01-20-223038_cjb1lf.png" alt="Pamela Rice" align="center"> |
+
+|                                                                    z0mbi3                                                                    |
+| :------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://res.cloudinary.com/diu2godjy/image/upload/v1737430315/Shot-2025-01-20-223140_odbsuh.png" alt="z0mbi3 Rice" align="center"> |
+
+---
+
 ## 💾 Installation:
 
 > [!IMPORTANT]
