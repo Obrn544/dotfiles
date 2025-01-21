@@ -44,7 +44,7 @@ chmod +x RiceInstaller
 ```
 
 > [!NOTE]
-> You can delete the dotfiles folder
+> If you want, you can delete the dotfiles folder
 
 ```sh
 rm -rf dotfiles
