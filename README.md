@@ -5,9 +5,10 @@
 &ensp;[<kbd> <br> Rices <br> </kbd>](#-rices)&ensp;
 &ensp;[<kbd> <br> Install <br> </kbd>](#-installation)&ensp;
 &ensp;[<kbd> <br> Keybindings <br> </kbd>](#very-useful-keybindings)&ensp;
+&ensp;[<kbd> <br> Possible errors <br> </kbd>](#possible-errors)&ensp;
 <br><br><br></div>
 
-## 🎨 Rices
+## Rices
 
 |                                                                    Aline                                                                    |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
@@ -43,7 +44,7 @@
 
 ---
 
-## 💾 Installation:
+## Installation:
 
 > [!IMPORTANT]
 > The installer only works for **Ubuntu 24** or latest versions.
@@ -93,7 +94,7 @@ chmod +x RiceInstaller
 rm -rf dotfiles
 ```
 
-## 🖮 Very Useful Keybindings
+## Very Useful Keybindings
 
 | Keys                                                                                                                                                                                                     | Action                                                                |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
@@ -112,7 +113,7 @@ And more.. You need to look sxhkdrc file for more, or press Alt + F1 for a cheat
 
 ---
 
-## ⚠️ Possible errors
+## Possible errors
 
 > [!WARNING]
 > If you can't change the brightness intensity, please follow the steps below
