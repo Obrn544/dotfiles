@@ -51,7 +51,17 @@
 
 <b>Open a terminal in HOME</b>
 
-- **First clone the repository**
+- **First install Starship and curl**
+
+```sh
+sudo apt install curl
+```
+
+```sh
+curl -sS https://starship.rs/install.sh | sh
+```
+
+- **Clone the repository**
 
 ```sh
 git clone https://github.com/Obrn544/dotfiles.git
