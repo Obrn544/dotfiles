@@ -19,7 +19,7 @@
 #			  08.12.2023 08:37:20
 
 
-# Verifies if xdpyinfo and imagemagick are installed
+# Verifies if x11-utils and imagemagick are installed
 for app in x11-utils imagemagick; do
     if ! dpkg -l | grep -q "$app"; then
         notify-send "Missing package" "Please install the $app package to continue" --urgency=critical
@@ -33,7 +33,7 @@ read -r current_rice < "$bspwm_dir"/.rice
 wall_dir="$bspwm_dir/rices/$current_rice/walls"
 
 # Trying to adapt the images and menu to your screen resolution.
-monitor_res=$(($(xdpyinfo | awk '/dimensions/{print $2}' | cut -d 'x' -f1) * 10 / $(xdpyinfo | awk '/resolution/{print $2}' | cut -d 'x' -f1) * 2))
+monitor_res=$(($(xdpyinfo | awk '/dimensions/{print $2}' | cut -d 'x' -f1) * 15 / $(xdpyinfo | awk '/resolution/{print $2}' | cut -d 'x' -f1) * 2))
 rofi_override="element-icon{size:${monitor_res}px;}"
 rofi_command="rofi -dmenu -theme $bspwm_dir/src/rofi-themes/WallSelect.rasi -theme-str $rofi_override"
 
