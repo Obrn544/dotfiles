@@ -15,7 +15,7 @@ $all$character"""
 
 command_timeout = 5000
 
-add_newline = true
+add_newline = false
 
 [os]
 format = '[$symbol](bold red) '   
